@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Roboto";
+}
+
+
+@font-face {
+    font-family:"Roboto";
+    src:local(Roboto);
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Image-fon.jpg ) center/cover no-repeat;
+    position: relative;
+}
+
+/* Position - в род контейнере(от которого отталкиваться реалитв, в другом абсолют */
+
+.gradblock {
+    width: 400px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.border { 
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+}
+
+.h1__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight:400;
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
+.title_text {
+    margin: 0px;
+    font-size: 12px;
+}
+  /* Иконки + текст под ними */
+.rodicon {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: inline;
+    height: 290px;
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+.icon img {
+    margin-right: 76px;
+}
+.icon img:last-child{
+    margin-right: 0px;
+}
+
+/* Текст ниже иконок */
+
+.text_selection_two { 
+    margin: 0;
+    font-size: 96px;
+    
+}
+
+.text_icon { 
+    color: #f15b40;
+}
+
+
+.text_selection {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* 3 секция */
+
+.text_last_section {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.cart {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.last_section {
+    margin-bottom: 20px;
+}
+
+
+.hr { 
+    border: none;
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+}
+.last_nav { 
+    margin: 20px 0 20px 0;
+}
+
+footer{
+    height: 80px;
+
+}

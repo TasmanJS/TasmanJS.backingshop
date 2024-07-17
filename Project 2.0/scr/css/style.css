@@ -1,0 +1,44 @@
+body { 
+    background-color: #ffe2b0;
+}
+/* Выровнить по центру в контейнере */
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    margin-bottom: 20px;
+}
+
+/* Убрать точки и в середину  */
+ul { 
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+/* Выравнивание и отступ у нав. меню */
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+/* Эффект при наведении на ссылку */
+a:hover { 
+    color: red;
+}
+/* Убрать отступ у последней ссылки(блока) */
+li:last-child {
+    margin-right: 0px;
+}
+
+/* Работа с тектсом внутри ссылки */
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
